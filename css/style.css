@@ -1,0 +1,152 @@
+@charset "utf-8";
+@font-face{
+	font-family: 'Swis721BtRoman';
+	src: url("fonts/tt0003m_.ttf");
+}
+@font-face{
+	font-family: 'Swis721CnBtRoman';
+	src: url("fonts/tt0009m_.ttf");
+}
+@font-face{
+	font-family: 'Swis721BlkCnBtRoman';
+	src: url("fonts/tt0173m_.ttf");
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	
+}
+
+.cabecalho{
+	margin: auto 0;
+	
+}
+
+.botao{
+    font-size: 10px;
+    width: 100%;
+    max-width: 97px;
+    margin: 3px 3px 0 3px;
+    font-family: 'Swis721BtRoman';
+}
+.cadastrar{
+	float: right;
+    background-color: #38c3e0;
+    border: none;
+    padding: 5px;
+    color: #fff;
+    margin-right: 15px;
+
+}
+
+.login{
+	float: right;
+	color: #73ae43;
+	background-color: #fff;
+	border: 1px solid #73ae43;
+	padding: 4px;
+}
+
+
+.navegacao{
+	padding-right: 0;
+	margin-top: 8px;
+}
+
+.menu{
+	padding-left: 10px;
+	background-color: #fff;
+	border-color: #fff;
+	margin-bottom: 0;
+}
+#movelmenu{
+	padding-right: 0;
+	border-color: #fff;
+}
+
+.container-menu{
+	padding-right: 0;
+}
+
+div#movelmenu ul.nav li a{
+	color: #38c3e0;
+	font-family: 'Swis721CnBtRoman';
+	font-size: 13px;
+}
+
+div#movelmenu ul.nav li a.ativo{
+	color: #73ae43;
+}
+
+
+
+div#movelmenu ul.nav li:hover{
+	background-color: #38c3e0;
+	border-radius: 20px;
+	transition-duration: 0.3s;
+}
+
+div#movelmenu ul.nav li:hover a{
+	color: #fff;
+	transition-duration: 0.3s;
+}
+
+
+
+div.slide{
+	margin-top: 1%;
+}
+
+
+@media screen and (min-width: 992px) {
+    .cabecalho {
+        margin: auto 13%;
+    
+	}
+
+	.right{
+		float: right;
+	}
+
+
+}
+
+
+@media screen and (min-device-width: 768px) and (max-device-width: 991px) { 
+    div.logo a img{
+    	margin: auto;
+    }
+
+
+	.right{
+		float: right;
+	}
+
+
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 767px) { 
+   	div.logo a img{
+    	margin: auto;
+    }
+
+	#movelmenu{
+		padding-right: 46px;
+		
+	}
+	   
+	div#movelmenu ul.nav li{
+		background-color: #000;
+		border:1px dotted green;
+	}
+
+	div#movelmenu ul.nav li a{
+		color: #fff;
+	
+	}
+
+
+
+}
+
