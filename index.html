@@ -13,103 +13,110 @@
 	
 </head>
 <body>
-<div class="cabecalho">
+	
 	<div class="container">	
+	
+		<div class="row">	
+			<button class="cadastrar botao">CADASTRE-SE</button>
+			<button class="login botao">MEU PAINEL</button>
+		</div>
 		
-			<div class="row">	
-				<button class="cadastrar botao">CADASTRE-SE</button>
-				<button class="login botao">MEU PAINEL</button>
+		<div class="row">
+			<div class="logo col-md-4 "> 
+				<a href="#"> <img src="img/logo.png" alt="logo Bemkifaz" class="img-responsive"></a>
 			</div>
-			
-			<div class="row">
-				<div class="logo col-md-4 "> 
-					<a href="#"> <img src="img/logo.png" alt="logo Bemkifaz" class="img-responsive"></a></div>
-					<div class="navegacao col-md-8" >
-
-						
-
-
-						<nav class="navbar navbar-default  menu">
-				            <div class="container-fluid container-menu">
-				                <div class="navbar-header">
-				                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#movelmenu" arial-expanded="false">
-					                    <span class="sr-only"></span>
-					                    <span class="icon-bar"></span>
-					                    <span class="icon-bar"></span>
-					                    <span class="icon-bar"></span>
-				        
-				              		</button>
-				                    
-				                </div>
-				                
-				                <div class="collapse navbar-collapse right" id="movelmenu">
-				                    <ul class="nav navbar-nav">
-				                        <li><a class="ativo" href="index.html">Home</a></li>
-										<li><a href="quemSomos.html">Quem Somos</a></li>
-										<li><a href="contribua.html">Contribua</a></li>
-										<li><a href="depoimentos.html">Depoimentos</a></li>
-										<li><a href="contato.html">Contato</a></li>               
-				                    </ul>
-				                    
-				                </div>
-				            </div>
-				        </nav>
-
-
-					</div>				
-			</div>
+			<div class="navegacao col-md-8" >
+				<nav class="navbar navbar-default  menu">
+		            <div class="container-fluid container-menu">
+		                <div class="navbar-header">
+		                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#movelmenu" arial-expanded="false">
+			                    <span class="sr-only"></span>
+			                    <span class="icon-bar"></span>
+			                    <span class="icon-bar"></span>
+			                    <span class="icon-bar"></span>
+		              		</button>
+		                </div>
+		                <div class="collapse navbar-collapse right" id="movelmenu">
+		                    <ul class="nav navbar-nav">
+		                        <li><a class="ativo" href="index.html">Home</a></li>
+								<li><a href="quemSomos.html">Quem Somos</a></li>
+								<li><a href="contribua.html">Contribua</a></li>
+								<li><a href="depoimentos.html">Depoimentos</a></li>
+								<li><a href="contato.html">Contato</a></li>               
+		                    </ul>
+		                </div>
+		            </div>
+		        </nav>
+			</div>				
 		</div>
 	</div>
+	
 
 
-	<!-- banner slides -->  
-		<div class="carousel slide" data-ride="carousel" id="galeria" >
-            <div class="carousel-inner">
-                <div class="item active">
-                    <img src="img/banner.jpg" class="img-responsive">
-                </div>
-                <div class="item">
-                    <img src="img/banner.jpg" class="img-responsive">
-                </div>
-                <div class="item">
-                    <img src="img/banner.jpg" class="img-responsive">
-                </div>
-                <div class="item">
-                    <img src="img/banner.jpg" class="img-responsive">
-                </div>
+	 
+	<div class="carousel slide" data-ride="carousel" id="galeria" >
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="img/banner.jpg" class="img-responsive">
             </div>
-            
-            <a class="left carousel-control" 
-               href="#galeria" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            </a>
-            
-            <a class="right carousel-control" 
-               href="#galeria" role="button" data-slide="next">
-                <i class="glyphicon glyphicon-chevron-right"></i>
-            </a>                
+            <div class="item">
+                <img src="img/banner.jpg" class="img-responsive">
+            </div>
+            <div class="item">
+                <img src="img/banner.jpg" class="img-responsive">
+            </div>
+            <div class="item">
+                <img src="img/banner.jpg" class="img-responsive">
+            </div>
         </div>
-	
-	
-
+        <a class="left carousel-control" href="#galeria" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        </a>
+        <a class="right carousel-control" href="#galeria" role="button" data-slide="next">
+            <i class="glyphicon glyphicon-chevron-right"></i>
+        </a>                
+    </div>
 
 	<div class="container">
 		<div class="row">
 			<div class="ajuda">
-				<div class="col-sm-6 col-xs-12">QUERO AJUDAR</div>
-				<div class="col-sm-6 col-xs-12">PRECISO DE AJUDA</div>
+				<div class="col-sm-6 col-xs-12 text-center" id="quero-ajudar">
+					<a href="#"><div><span>QUERO AJUDAR</span></div>
+					</a>
+				</div>
+				<div class="col-sm-6 col-xs-12 text-center" id="preciso-ajuda">
+					<a href="#"><div><span>PRECISO DE AJUDA</span></div>
+					</a>
+				</div>
 			</div>
 		</div>
 	</div>
-	<footer>
-		<div class="redes-sociais">
-			<a href="#" class="facebook"></a>
-			<a href="#" class="instagram"></a>
-			<a href="#" class="twiter"></a>
+	
+	<footer class="text-center">
+		<div class="container">
+			<div class="row">
+				<img src="img/logo-footer.png">
+			</div>
+
+			<div class="row">
+				<div class="redes-sociais col-md-12">
+					<a href="#" class="facebook"></a>
+					<a href="#" class="instagram"></a>
+					<a href="#" class="twiter"></a>
+				</div>
+			</div>
+			<div class="row ">
+				<div class="col-md-12">
+					<small>&copy 2016 Bemkifaz - Todos os direitos reservador | <a href="#">Termos de Uso</a> -	Política de Privacidade</small>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 desenvolvido">
+					<a target="blank" href="http://www.innovarecompany.com.br">Desenvolvido por <img src="img/innovare.png"></a>
+				</div>
+			</div>
 		</div>
 	</footer>
-
-	
 	<script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>

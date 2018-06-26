@@ -5,3 +5,17 @@ div.item img{
 div.carousel-inner{
 	max-height: 500px;
 }
+
+div.ajuda{
+	margin: 15px auto;
+}
+
+div.ajuda div#quero-ajudar a div{
+	background-color: #a8d26b;
+	width: 100%;
+	
+}
+div.ajuda div#preciso-ajuda a div{
+	background-color: #38c3e0;
+  	width: 100%;
+}

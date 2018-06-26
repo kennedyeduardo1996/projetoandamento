@@ -18,10 +18,6 @@
 	
 }
 
-.cabecalho{
-	
-	
-}
 
 .botao{
     font-size: 10px;
@@ -89,52 +85,63 @@ div#movelmenu ul.nav li:hover a{
 	transition-duration: 0.3s;
 }
 
-
-
 div.slide{
 	margin-top: 1%;
 }
 
-div.redes-sociais{
-	width: 130px;
-	margin: auto;
+footer{
+	background-color: #f2f1f1;
+	font-family: 'Swis721BtRoman';
+}
+
+footer div.container div.row{
+	margin: 15px auto;
 }
 
 div.redes-sociais a{
 	display: inline-block;
-    border: 1px solid black;
     width: 38px;
     height: 38px;
     background-image: url(../img/redes.png);
 }
-div.redes-sociais a:hover{
+div.redes-sociais a{
 	transition-duration: 0.2s;
 }
 
-a.facebook{
+div.redes-sociais a.facebook{
     background-position: -14px -14px;
 }
 
 
-a.facebook:hover{
+div.redes-sociais a.facebook:hover{
 	background-position: -14px -54px;
 }
 
-a.instagram{
+div.redes-sociais a.instagram{
     background-position: -60px -14px;
     margin: auto 3px;
 }
 
-a.instagram:hover{
+div.redes-sociais a.instagram:hover{
 	background-position: -60px -54px;
 }
 
-a.twiter{
+div.redes-sociais a.twiter{
     background-position: -106px -14px;
 }
 
-a.twiter:hover{
+div.redes-sociais a.twiter:hover{
 	background-position: -106px -54px;
+}
+footer div.container div.row small a{
+	color: #0aaccd;
+}
+
+
+
+.desenvolvido a{
+	color: #a1a1a1;
+	text-decoration: none;
 }
 
 
