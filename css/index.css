@@ -12,11 +12,6 @@
 	src: url("fonts/tt0173m_.ttf");
 }
 
-*{
-	padding: 0;
-	margin: 0;
-}
-
 div.item img{
 	width: 100%;
 }
@@ -25,20 +20,24 @@ div.carousel-inner{
 	max-height: 500px;
 }
 
-div{
+div.ajuda{
 	margin: 15px;
 }
 
+div.ajuda div a{
+	text-decoration: none;
+}
 
-div div#quero-ajudar a div{
+div.ajuda div#quero-ajudar a div{
 	background-color: #a8d26b;
 	padding: 12%;
 }
-div div#preciso-ajuda a div{
+div.ajuda div#preciso-ajuda a div{
 	background-color: #38c3e0;
 	padding: 12%;
 }
-div div a div span{
+
+div.ajuda div a div span{
 	font-family: 'Swis721BlkCnBtRoman';
 	color: #fff;
 	font-weight: bold;
@@ -46,16 +45,85 @@ div div a div span{
 	border-bottom: 1px dashed;
 	padding: 10px;
 }
+.linha{
+	text-align: center;
+	margin-top: 30px;
+}
+
+ .azul{
+ 	color: #38c3e0;
+ }
+
+.linha span{
+	font-family: 'Swis721BlkCnBtRoman';
+    font-size: 21px;
+    font-weight: bold;
+    border-bottom: 1px dashed;
+    padding: 3px 30%;
+
+}
+.linha p{
+	font-family: 'Swis721BtRoman';
+	margin: 5px
+}
+
+.abrace-ideia div img{
+    margin: auto;
+}
+
+.abrace-ideia div p{
+	font-family: 'Swis721BtRoman';
+	margin: 5% 10%;
+}
+
+.button-center{
+	font-family: 'Swis721BtRoman';
+	width: 100%;
+    max-width: 150px;
+    background-color: #fff;
+    border: 1px solid;
+    height: 40px;
+    margin: 3% auto;
+} 
+
+.saiba-mais{
+	color: #38c3e0;
+
+}
+
+.bg-verde{
+	background-color: #a8d26b;
+}
+
+.branca{
+	color: #fff;
+}
+
+.imagens div img{
+	width: 180px;
+	height: 180px;
+	border-radius: 90px;
+	background-color: #b9db89;
+	
+}
+
+@media screen and (min-width: 992px) {
+	.abrace-ideia div p{
+   		margin: 10% 20% 3% 0;
+	}
+}
+
 
 @media screen and (min-device-width: 320px) and (max-device-width: 767px) {
-	div div a div span{
+	div.ajuda div a div span{
 		font-size: 19px;
 		border-bottom: 1px dashed;
 		padding: 5px;
 	}
-	div div#preciso-ajuda a div{
+	div.ajuda div#preciso-ajuda a div{
 		margin: 10px auto;
 	}
+	
 
 }
 

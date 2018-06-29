@@ -15,7 +15,6 @@
 *{
 	padding: 0;
 	margin: 0;
-	
 }
 
 
@@ -160,27 +159,19 @@ footer div.container div.row small a{
 		padding-right: 0;
 	}
 
-	nav.menu div.container-fluid {
+	nav.menu div.container-fluid{
     	padding-right: 0px;
 	}
 
-
 }
-
 
 @media screen and (min-device-width: 768px) and (max-device-width: 991px) { 
     div.logo a img{
     	margin: auto;
     }
-
-
 	.right{
 		float: right;
 	}
-
-	
-
-
 }
 
 @media screen and (min-device-width: 320px) and (max-device-width: 767px) { 
@@ -191,20 +182,14 @@ footer div.container div.row small a{
 	#movelmenu{
 		padding-right: 46px;
 		
-	}
-	   
+	}  
 	div#movelmenu ul.nav li{
 		background-color: #000;
 		border:1px dotted green;
 	}
-
 	div#movelmenu ul.nav li a{
 		color: #fff;
 	
 	}
-	
-
-
-
 }
 
