@@ -12,6 +12,7 @@
 	src: url("fonts/tt0173m_.ttf");
 }
 
+
 div.item img{
 	width: 100%;
 }
@@ -47,7 +48,7 @@ div.ajuda div a div span{
 }
 .linha{
 	text-align: center;
-	margin-top: 30px;
+	margin-top: 35px;
 }
 
  .azul{
@@ -59,9 +60,17 @@ div.ajuda div a div span{
     font-size: 21px;
     font-weight: bold;
     border-bottom: 1px dashed;
-    padding: 3px 30%;
-
+    padding: 3px 29%;
 }
+.linha.linha2 span{
+	font-family: 'Swis721BlkCnBtRoman';
+    font-size: 21px;
+    font-weight: bold;
+    border-bottom: 1px dashed;
+    padding: 3px 21%;
+}
+
+
 .linha p{
 	font-family: 'Swis721BtRoman';
 	margin: 5px
@@ -86,30 +95,86 @@ div.ajuda div a div span{
     margin: 3% auto;
 } 
 
-.saiba-mais{
+.bt-saiba-mais{
 	color: #38c3e0;
 
 }
 
 .bg-verde{
 	background-color: #a8d26b;
+	color: #fff;
 }
 
 .branca{
 	color: #fff;
 }
 
-.imagens div img{
-	width: 180px;
-	height: 180px;
-	border-radius: 90px;
-	background-color: #b9db89;
-	
+.imagens div div.fundo-transparente{
+	margin: 50px auto 30px;
+    padding-top: 45px;
+    width: 190px;
+    height: 190px;
+    border-radius: 95px;
+    background-color: #b9db89;
 }
 
-@media screen and (min-width: 992px) {
+.bt-quero-ajudar{
+	color:#a8d26b;
+	margin-bottom: 4%;
+}
+
+.comentario{
+	margin: 5% 15% 2%;
+	display: inline-block;
+	background: url(../img/aspainicio.png) top left no-repeat, 
+	url(../img/aspafim.png) bottom right no-repeat;
+
+}
+
+.comentario p{
+	margin: 3% 7% 1%;
+}
+
+.numero-comentario ul{
+    margin: auto;
+    width: 144px;
+}
+
+
+.numero-comentario ul li{
+	display: inline-block;
+    padding: 2px;
+    width: 27px;
+    border-radius: 90px;
+    height: 27px;
+    text-align: center;
+	margin: 3px;
+	background-color: #f2f1f1;
+	font-weight: bold;
+
+}
+
+.numero-comentario ul li a{
+	text-decoration: none;
+	color: #000;
+	padding: 6px
+}
+.numero-comentario ul li.comentario-ativo{
+	background-color: #38c3e0;
+}
+.numero-comentario ul li.comentario-ativo a{
+	color: #fff;
+}
+
+@media screen (min-width: 992px) {
 	.abrace-ideia div p{
    		margin: 10% 20% 3% 0;
+	}
+}
+
+@media screen (min-device-width: 768px) and (max-width: 991px) {
+	.linha span {
+	    padding: 3px 21%;
 	}
 }
 
@@ -123,7 +188,13 @@ div.ajuda div a div span{
 	div.ajuda div#preciso-ajuda a div{
 		margin: 10px auto;
 	}
-	
+	.comentario{
+		margin: 2% 0;
+	}
+	.linha span {
+	    font-size: 17px;
+	    padding: 3px 18%;
+	}
 
 }
 

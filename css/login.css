@@ -1,0 +1,33 @@
+@charset "utf-8";
+.form-login{    
+    border: 1px solid;
+    margin-left: 15%;
+    width: 52%;
+    background-color: #f2f1f1;
+    padding: auto;
+}
+
+
+.form-login form{
+    margin: 3% 6%;
+}
+
+@media screen and (min-width: 992px) {
+
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 991px) { 
+	
+
+	.form-login {
+	    margin: auto;
+	} 
+
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 767px) { 
+	.form-login {
+	    margin: auto;
+	} 
+}
+

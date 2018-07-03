@@ -172,6 +172,11 @@ footer div.container div.row small a{
 	.right{
 		float: right;
 	}
+
+	.abrace-ideia div p {
+    	text-align: center;
+	}
+
 }
 
 @media screen and (min-device-width: 320px) and (max-device-width: 767px) { 
@@ -186,10 +191,15 @@ footer div.container div.row small a{
 	div#movelmenu ul.nav li{
 		background-color: #000;
 		border:1px dotted green;
+		text-align: center;
 	}
+
 	div#movelmenu ul.nav li a{
 		color: #fff;
 	
+	}
+	.abrace-ideia div p {
+    	text-align: center;
 	}
 }
 
