@@ -184,9 +184,11 @@ footer div.container div.row small a{
     div.logo a img{
     	margin: auto;
     }
+    
 
-	#movelmenu{
-		margin: auto 11%;
+
+	#movelmenu ul.nav li a {
+    	font-size: 16px;
 	}
 
 	.abrace-ideia div p {
