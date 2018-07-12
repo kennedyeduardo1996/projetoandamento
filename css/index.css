@@ -1,51 +1,81 @@
 @charset "utf-8";
 @font-face{
-	font-family: 'Swis721BtRoman';
-	src: url("fonts/tt0003m_.ttf");
+  font-family: 'Swiss721BT-Roman';
+  src: url('../fonts/Swiss721BT-Roman.eot?#iefix') format('embedded-opentype'),  url('../fonts/Swiss721BT-Roman.woff') format('woff'), url('../fonts/Swiss721BT-Roman.ttf')  format('truetype'), url('../fonts/Swiss721BT-Roman.svg#Swiss721BT-Roman') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
-@font-face{
-	font-family: 'Swis721CnBtRoman';
-	src: url("fonts/tt0009m_.ttf");
+@font-face {
+  font-family: 'Swiss721BT-RomanCondensed';
+  src: url('../fonts/Swiss721BT-RomanCondensed.eot?#iefix') format('embedded-opentype'),  url('../fonts/Swiss721BT-RomanCondensed.woff') format('woff'), url('../fonts/Swiss721BT-RomanCondensed.ttf')  format('truetype'), url('../fonts/Swiss721BT-RomanCondensed.svg#Swiss721BT-RomanCondensed') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
-@font-face{
-	font-family: 'Swis721BlkCnBtRoman';
-	src: url("fonts/tt0173m_.ttf");
+@font-face {
+  font-family: 'Swiss721BT-BlackCondensed';
+  src: url('../fonts/Swiss721BT-BlackCondensed.eot?#iefix') format('embedded-opentype'),  url('../fonts/Swiss721BT-BlackCondensed.woff') format('woff'), url('../fonts/Swiss721BT-BlackCondensed.ttf')  format('truetype'), url('../fonts/Swiss721BT-BlackCondensed.svg#Swiss721BT-BlackCondensed') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
-
-div.item img{
+.item img{
 	width: 100%;
 }
 
-div.carousel-inner{
+.carousel-inner{
 	max-height: 500px;
 }
 
-div.ajuda{
-	margin: 15px;
+.ajuda{
+    margin-top: 24px;
 }
 
-div.ajuda div a{
+.ajuda div a{
 	text-decoration: none;
 }
 
-div.ajuda div#quero-ajudar a div{
+.ajuda div#quero-ajudar, 
+.ajuda div#preciso-ajuda{
+    padding-right: 18px;
+}
+
+.ajuda div#quero-ajudar a div{
 	background-color: #a8d26b;
+	border: 1px solid #a8d26b;
 	padding: 12%;
 }
-div.ajuda div#preciso-ajuda a div{
+.ajuda div#preciso-ajuda a div{
 	background-color: #38c3e0;
+	border: 1px solid #38c3e0;
 	padding: 12%;
 }
 
-div.ajuda div a div span{
-	font-family: 'Swis721BlkCnBtRoman';
-	color: #fff;
-	font-weight: bold;
-	font-size: 30px;
-	border-bottom: 1px dashed;
-	padding: 10px;
+
+.ajuda div#quero-ajudar a div:hover{
+	background-color: #87b444;
+	transition-duration: 1s;
 }
+.ajuda div#preciso-ajuda a div:hover{
+	background-color: #0cadee;
+	transition-duration: 1s;
+}
+.ajuda div a div:hover span{
+    border-bottom: 1px solid;
+    transition-duration: 1s;
+}
+
+
+.ajuda div a div span{
+	font-family: 'Swiss721BT-BlackCondensed';
+    color: #fff;
+    font-weight: bold;
+    font-size: 42px;
+    border-bottom: 1px dashed;
+    padding-bottom: 1%;
+}
+
+
+
 .linha{
 	text-align: center;
 	margin-top: 35px;
@@ -56,14 +86,14 @@ div.ajuda div a div span{
  }
 
 .linha span{
-	font-family: 'Swis721BlkCnBtRoman';
-    font-size: 21px;
+	font-family: 'Swiss721BT-BlackCondensed';
+    font-size: 38px;
     font-weight: bold;
     border-bottom: 1px dashed;
-    padding: 3px 29%;
+    padding: 3px 30%;
 }
 .linha.linha2 span{
-	font-family: 'Swis721BlkCnBtRoman';
+	font-family: 'Swiss721BT-BlackCondensed';
     font-size: 21px;
     font-weight: bold;
     border-bottom: 1px dashed;
@@ -72,8 +102,9 @@ div.ajuda div a div span{
 
 
 .linha p{
-	font-family: 'Swis721BtRoman';
-	margin: 5px
+    font-family: 'Swiss721BT-Roman';
+    margin: 5px;
+    font-size: 20px;
 }
 
 .abrace-ideia div img{
@@ -81,13 +112,15 @@ div.ajuda div a div span{
 }
 
 .abrace-ideia div p{
-	font-family: 'Swis721BtRoman';
-	margin: 5% 10%;
+    font-family: 'Swiss721BT-Roman';
+    margin: 5% 10%;
+    font-size: 16px;
 }
 
 .button-center{
-	font-family: 'Swis721BtRoman';
-	width: 100%;
+    font-family: 'Swiss721BT-Roman';
+    font-size: 16px;
+    width: 100%;
     max-width: 150px;
     background-color: #fff;
     border: 1px solid;
@@ -118,11 +151,29 @@ div.ajuda div a div span{
     background-color: #b9db89;
 }
 
+.imagens div div.fundo-transparente h4{
+	font-size: 22px;
+}
+.imagens div p{
+	font-size: 16px;
+}
+
+
+
+.imagens div div.fundo-transparente.img-objeto{
+    padding-top: 29px;
+}
+
 .bt-quero-ajudar{
 	color:#a8d26b;
 	margin-bottom: 4%;
 }
 
+.bt-quero-ajudar:hover{
+	color:#fff;
+	border: 1px solid #a8d26b;
+	
+}
 .comentario{
 	margin: 5% 15% 2%;
 	display: inline-block;
@@ -133,6 +184,7 @@ div.ajuda div a div span{
 
 .comentario p{
 	margin: 3% 7% 1%;
+    font-size: 16px;
 }
 
 .numero-comentario ul{
@@ -172,7 +224,13 @@ div.ajuda div a div span{
 	}
 }
 
-@media screen (min-device-width: 768px) and (max-width: 991px) {
+@media screen and (min-device-width: 768px) and (max-width: 991px) {
+
+
+	.ajuda div a div span {
+	    font-size: 29px;
+	}
+
 	.linha span {
 	    padding: 3px 21%;
 	}
@@ -180,11 +238,12 @@ div.ajuda div a div span{
 
 
 @media screen and (min-device-width: 320px) and (max-device-width: 767px) {
-	div.ajuda div a div span{
-		font-size: 19px;
-		border-bottom: 1px dashed;
-		padding: 5px;
+	div.ajuda div a div span {
+	    font-size: 25px;
+	    padding: 5px;
 	}
+
+
 	div.ajuda div#preciso-ajuda a div{
 		margin: 10px auto;
 	}
@@ -192,9 +251,12 @@ div.ajuda div a div span{
 		margin: 2% 0;
 	}
 	.linha span {
-	    font-size: 17px;
-	    padding: 3px 18%;
+	    font-size: 25px;
+	    padding: 3px 30%;
 	}
+	.branca span {
+    padding: 3px 15%;
+}
 
 }
 
